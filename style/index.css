@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+:root{
+    /* Colores: */
+     --celestito:#92B4EC;
+     --gris-claro:#F8F9FA;
+     --amarillo:#FFE69A;
+     --dorado:#FFD24C;
+     --white:#FFFFFF;
+     --black:#000000;
+     --statuscelestes:#7BBDED;
+     --gris-adorno:#E4E4E4;
+     --gris: #565656;
+}
+
+/* NAVEGADOR */
+nav{
+    font-size: 3.6rem;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    /* background: skyblue; */
+}
+
+.nav-mivitamina{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-paginas{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-paginas ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* IMG */
+.img-superfoods{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.img-superfoods img{
+    width: 70%;
+}
+
+/* Frase */
+.frase{
+    width: 100%;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.frase div{
+    width: 40%;
+    text-align: center;
+}
+
+/* Main */
+main{
+    margin: 50px 0;
+    width: 100%;
+    font-size: 2.6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main-img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-img img{
+    width: 60%;
+}
+
+.main-contenido{
+    width: 40%;
+    /* background-color: skyblue; */
+    padding: 0 60px;
+}
+
+.main-precio{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+
+}
+
+.main-descripcion{
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+
+}
+
+.titulo{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 19px 0;
+}
+
+.letra_pequena{
+    color: var(--black);
+    font-weight: 300;
+    font-size: 1.8rem;
+    padding: 10px 0;
+}
+
+.precio{
+    color: var(--black);
+    padding: 10px 0;
+    font-size: 2.5rem;
+}
+
+.subtitulos{
+    color: var(--black);
+    padding: 10px 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.italica{
+    color: black;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 270px;
+    font-size: 2.8rem;
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+}
+
+.footer-subscribe{
+    width: 50%;
+}
+
+.footer-social{
+    width: 50%;
+}
