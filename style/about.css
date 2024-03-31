@@ -11,7 +11,7 @@ html {
 
 a {
     text-decoration: none;
-    color: var(--black);
+    color: var(--white);
 }
 
 li {
@@ -27,8 +27,9 @@ li {
     --white: #FFFFFF;
     --black: #000000;
     --verde: #224945;
+    --verde-l: #76ABAE;
     --gris-adorno: #E4E4E4;
-    --gris: #565656;
+    --gris: #222831;
 }
 .titulo-grande{
     color: var(--verde);
@@ -82,7 +83,8 @@ nav {
     width: 100%;
     height: 120px;
     display: flex;
-    /* background: skyblue; */
+    background: var(--verde-l);
+    color: var(--white);
 }
 
 .nav-mivitamina {
@@ -164,7 +166,7 @@ footer {
     width: 100%;
     height: 270px;
     font-size: 2.8rem;
-    background-color: var(--black);
+    background-color: var(--gris);
     color: var(--white);
     display: flex;
 }
