@@ -105,58 +105,59 @@ nav {
     justify-content: space-evenly;
 }
 
-/* empresa */
-.empresa{
-    margin: 100px 0;
+/* Team */
+.team{
     width: 100%;
-    font-size: 2.6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 2.5rem;
+    height: 580px;
+    margin: 25px 0;
 }
 
-.empresa-img{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    object-fit: contain;
-}
-.empresa-contenido{
-    width: 40%;
-}
-
-
-/* bienestar */
-.bienestar{
-    width: 100%;
-    font-size: 2.6rem;
-    margin-bottom: 100px;
-}
-
-.bienestar-title{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+.team-title{
+    width: 45%;
     margin-left: 100px;
 }
 
-.bienestar-content{
-    width: 100%;
-    height: 700px;
+.team-content{
+    height: 430px;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.bienestar-img{
-    width: 50%;
-    display: flex;
     justify-content: center;
-    object-fit: contain;
 }
 
-.bienestar-description{
-    width: 40%;
+.team-text{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.team-img{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+.team-imagen img{
+    width: 90%;
+    border-radius: 50%;
+}
+
+.team-img span{
+    color: var(--verde);
+    font-weight: bold;
+}
+
+.team-icons{
+    margin-top: 16px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.team-icons img{
+    width: 50px;
 }
 
 /* footer */
@@ -235,12 +236,5 @@ footer {
 
     footer{
         font-size: 2.2rem;
-    }
-
-    .empresa-img img{
-        width: 80%;
-    }
-    .bienestar-img img{
-        width: 80%;
     }
 }
