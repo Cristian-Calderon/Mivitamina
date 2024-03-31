@@ -141,13 +141,18 @@ nav {
 }
 
 .team-imagen img{
-    width: 90%;
+    width: 60%;
     border-radius: 50%;
+    clip-path: circle(40%);
 }
 
 .team-img span{
     color: var(--verde);
     font-weight: bold;
+}
+
+#cris{
+    width: 300px;
 }
 
 .team-icons{
